@@ -1,0 +1,3056 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_5cf9e8c75a3448acb7d1c33f1271f6a7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5cf9e8c75a3448acb7d1c33f1271f6a7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_5cf9e8c75a3448acb7d1c33f1271f6a7 = L.map(
+                                  'map_5cf9e8c75a3448acb7d1c33f1271f6a7',
+                                  {center: [47.374504,8.482991],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_f143229be6fc4837b21771169a20f919 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+        
+    
+
+            var circle_33302f0a990340e18fa2139a1f3a809f = L.circle(
+                [47.34105853042033,8.537068036893146],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_cdf91d12689f4e4396d97977f20c4d5f = L.popup({maxWidth: '300'});
+
+            
+                var html_bb3f8a8277564f6094152eaeb55e06f3 = $('<div id="html_bb3f8a8277564f6094152eaeb55e06f3" style="width: 100.0%; height: 100.0%;">Badanstalt Wollishofen</div>')[0];
+                popup_cdf91d12689f4e4396d97977f20c4d5f.setContent(html_bb3f8a8277564f6094152eaeb55e06f3);
+            
+
+            circle_33302f0a990340e18fa2139a1f3a809f.bindPopup(popup_cdf91d12689f4e4396d97977f20c4d5f);
+
+            
+        
+    
+
+            var circle_30427d08be5e4afc948ca79eaab49d40 = L.circle(
+                [47.33416670595233,8.529921464289464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_bef6773076a44d639db1063880c726cc = L.popup({maxWidth: '300'});
+
+            
+                var html_7261f14db1b8488485dce13b3addae6c = $('<div id="html_7261f14db1b8488485dce13b3addae6c" style="width: 100.0%; height: 100.0%;">Albis-/Paradies-/Widmerstr (Schulweg)</div>')[0];
+                popup_bef6773076a44d639db1063880c726cc.setContent(html_7261f14db1b8488485dce13b3addae6c);
+            
+
+            circle_30427d08be5e4afc948ca79eaab49d40.bindPopup(popup_bef6773076a44d639db1063880c726cc);
+
+            
+        
+    
+
+            var circle_03d7d7bef4a94a1988e12257c8324614 = L.circle(
+                [47.33254743168517,8.517891174463774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_c0cbe50cfdc8425d93890fabe4e48eb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e125c731ca6d49b68e7600d97b643cd4 = $('<div id="html_e125c731ca6d49b68e7600d97b643cd4" style="width: 100.0%; height: 100.0%;">Leimbach-/Soodstr</div>')[0];
+                popup_c0cbe50cfdc8425d93890fabe4e48eb5.setContent(html_e125c731ca6d49b68e7600d97b643cd4);
+            
+
+            circle_03d7d7bef4a94a1988e12257c8324614.bindPopup(popup_c0cbe50cfdc8425d93890fabe4e48eb5);
+
+            
+        
+    
+
+            var circle_4686db102c2f47d18689c385aeeebb6a = L.circle(
+                [47.3677900720736,8.494623260545982],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5a17d075c3b840a9b8637413f2516e34 = L.popup({maxWidth: '300'});
+
+            
+                var html_e11ef826d9ea4e0a84caed7d0ac54b0b = $('<div id="html_e11ef826d9ea4e0a84caed7d0ac54b0b" style="width: 100.0%; height: 100.0%;">Birmensdorfer-/Triemlistr</div>')[0];
+                popup_5a17d075c3b840a9b8637413f2516e34.setContent(html_e11ef826d9ea4e0a84caed7d0ac54b0b);
+            
+
+            circle_4686db102c2f47d18689c385aeeebb6a.bindPopup(popup_5a17d075c3b840a9b8637413f2516e34);
+
+            
+        
+    
+
+            var circle_0343aeaa2ead4decafca557995ea449c = L.circle(
+                [47.37450360741726,8.482991115336937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_832713b6f4e7456b888b4be3865202af = L.popup({maxWidth: '300'});
+
+            
+                var html_fae9daf425ac4a739eb39539caa0b74c = $('<div id="html_fae9daf425ac4a739eb39539caa0b74c" style="width: 100.0%; height: 100.0%;">Albisriederstr/Lyrenweg</div>')[0];
+                popup_832713b6f4e7456b888b4be3865202af.setContent(html_fae9daf425ac4a739eb39539caa0b74c);
+            
+
+            circle_0343aeaa2ead4decafca557995ea449c.bindPopup(popup_832713b6f4e7456b888b4be3865202af);
+
+            
+        
+    
+
+            var circle_ed97ff44928d4b15afee1e370a54f6e9 = L.circle(
+                [47.39399578587543,8.472110139179229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_668b9e979c45497eb8cc4501eedef391 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d411532d8294a388f6b2fbe48e8b30e = $('<div id="html_7d411532d8294a388f6b2fbe48e8b30e" style="width: 100.0%; height: 100.0%;">Badenerstr/Hermetschloobrücke/Zürcherstr</div>')[0];
+                popup_668b9e979c45497eb8cc4501eedef391.setContent(html_7d411532d8294a388f6b2fbe48e8b30e);
+            
+
+            circle_ed97ff44928d4b15afee1e370a54f6e9.bindPopup(popup_668b9e979c45497eb8cc4501eedef391);
+
+            
+        
+    
+
+            var circle_44fa54d5e7f641daba0b98c3f80589f2 = L.circle(
+                [47.39816305979796,8.473628863257241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_325f4f0035034942996a5749c7d1309a = L.popup({maxWidth: '300'});
+
+            
+                var html_7e65da420551432283f8cc7395a2fa57 = $('<div id="html_7e65da420551432283f8cc7395a2fa57" style="width: 100.0%; height: 100.0%;">Bernerstr/A1 Limmatbrücke</div>')[0];
+                popup_325f4f0035034942996a5749c7d1309a.setContent(html_7e65da420551432283f8cc7395a2fa57);
+            
+
+            circle_44fa54d5e7f641daba0b98c3f80589f2.bindPopup(popup_325f4f0035034942996a5749c7d1309a);
+
+            
+        
+    
+
+            var circle_c3aa741547a8417a8d0bb39325fa83ae = L.circle(
+                [47.40524239654592,8.480483688832571],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_cc3b33bea28d41dfbd5270c233afacf5 = L.popup({maxWidth: '300'});
+
+            
+                var html_b905d91bad634b23b58bad6f3087548b = $('<div id="html_b905d91bad634b23b58bad6f3087548b" style="width: 100.0%; height: 100.0%;">Frankentaler-/Limmattalstr</div>')[0];
+                popup_cc3b33bea28d41dfbd5270c233afacf5.setContent(html_b905d91bad634b23b58bad6f3087548b);
+            
+
+            circle_c3aa741547a8417a8d0bb39325fa83ae.bindPopup(popup_cc3b33bea28d41dfbd5270c233afacf5);
+
+            
+        
+    
+
+            var circle_89dd7c07ae94444099dc350a3891d484 = L.circle(
+                [47.41595608547909,8.483375732622852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_f27eee52463341bdaf8c9900b7f315ca = L.popup({maxWidth: '300'});
+
+            
+                var html_c81423c77a684a12aba677f4d8799324 = $('<div id="html_c81423c77a684a12aba677f4d8799324" style="width: 100.0%; height: 100.0%;">Frankentaler-/Regensdorferstr</div>')[0];
+                popup_f27eee52463341bdaf8c9900b7f315ca.setContent(html_c81423c77a684a12aba677f4d8799324);
+            
+
+            circle_89dd7c07ae94444099dc350a3891d484.bindPopup(popup_f27eee52463341bdaf8c9900b7f315ca);
+
+            
+        
+    
+
+            var circle_e40d1f43291d44fdba249cd2029b8c4a = L.circle(
+                [47.41984233052452,8.504437070667967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_0b3db7bfacde4917b77f324eaec3744d = L.popup({maxWidth: '300'});
+
+            
+                var html_be9e8a2758fe4025b8db10fbb14bdd11 = $('<div id="html_be9e8a2758fe4025b8db10fbb14bdd11" style="width: 100.0%; height: 100.0%;">Wehntalerstr 566 (Fg-Uebergang Schulhaus Holderbach)</div>')[0];
+                popup_0b3db7bfacde4917b77f324eaec3744d.setContent(html_be9e8a2758fe4025b8db10fbb14bdd11);
+            
+
+            circle_e40d1f43291d44fdba249cd2029b8c4a.bindPopup(popup_0b3db7bfacde4917b77f324eaec3744d);
+
+            
+        
+    
+
+            var circle_f7476669f2814a5f98520832a194f9f9 = L.circle(
+                [47.41979044269867,8.504386863506099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_752e1a348046426c91c7d9c26608a0de = L.popup({maxWidth: '300'});
+
+            
+                var html_3034c68344cf47c687dde9aa28668a31 = $('<div id="html_3034c68344cf47c687dde9aa28668a31" style="width: 100.0%; height: 100.0%;">Zehntenhausplatz</div>')[0];
+                popup_752e1a348046426c91c7d9c26608a0de.setContent(html_3034c68344cf47c687dde9aa28668a31);
+            
+
+            circle_f7476669f2814a5f98520832a194f9f9.bindPopup(popup_752e1a348046426c91c7d9c26608a0de);
+
+            
+        
+    
+
+            var circle_be78214326b44da59cd6f1d6426d61ab = L.circle(
+                [47.42630738167028,8.54714058857696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_0819857b7f3a428a86fab81303b8a79c = L.popup({maxWidth: '300'});
+
+            
+                var html_057909e85f2143b983295a5aeb5e59f0 = $('<div id="html_057909e85f2143b983295a5aeb5e59f0" style="width: 100.0%; height: 100.0%;">Glatttalstr/Kolbenacker</div>')[0];
+                popup_0819857b7f3a428a86fab81303b8a79c.setContent(html_057909e85f2143b983295a5aeb5e59f0);
+            
+
+            circle_be78214326b44da59cd6f1d6426d61ab.bindPopup(popup_0819857b7f3a428a86fab81303b8a79c);
+
+            
+        
+    
+
+            var circle_eecce96c76a5474db70ee4f13be8db58 = L.circle(
+                [47.41995709179105,8.555932173778455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_7f73642a8c6b4705ab3bcd7ae9de0f89 = L.popup({maxWidth: '300'});
+
+            
+                var html_b746289be4724bdaa83eeb1e8a20b5d8 = $('<div id="html_b746289be4724bdaa83eeb1e8a20b5d8" style="width: 100.0%; height: 100.0%;">Schärenmoos-/Thurgauerstr</div>')[0];
+                popup_7f73642a8c6b4705ab3bcd7ae9de0f89.setContent(html_b746289be4724bdaa83eeb1e8a20b5d8);
+            
+
+            circle_eecce96c76a5474db70ee4f13be8db58.bindPopup(popup_7f73642a8c6b4705ab3bcd7ae9de0f89);
+
+            
+        
+    
+
+            var circle_43289a1f8d3644708d8bb3e6870562d5 = L.circle(
+                [47.40910873433025,8.579938633614873],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_2a7a9389b5774f55af13218b1e6befab = L.popup({maxWidth: '300'});
+
+            
+                var html_727e1f8896b04d939abb9cf6c2db0ce8 = $('<div id="html_727e1f8896b04d939abb9cf6c2db0ce8" style="width: 100.0%; height: 100.0%;">Ueberlandstr 327 (Weststr. Kanton)</div>')[0];
+                popup_2a7a9389b5774f55af13218b1e6befab.setContent(html_727e1f8896b04d939abb9cf6c2db0ce8);
+            
+
+            circle_43289a1f8d3644708d8bb3e6870562d5.bindPopup(popup_2a7a9389b5774f55af13218b1e6befab);
+
+            
+        
+    
+
+            var circle_e86dc29918094458bea13d9119c42687 = L.circle(
+                [47.40641562297192,8.591563762647848],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_b2a289de4af04ace991844158c8dc922 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1c49f0b1ebb48dbb0b220744c739a10 = $('<div id="html_b1c49f0b1ebb48dbb0b220744c739a10" style="width: 100.0%; height: 100.0%;">Neue Winterthurer-/Ueberlandstr</div>')[0];
+                popup_b2a289de4af04ace991844158c8dc922.setContent(html_b1c49f0b1ebb48dbb0b220744c739a10);
+            
+
+            circle_e86dc29918094458bea13d9119c42687.bindPopup(popup_b2a289de4af04ace991844158c8dc922);
+
+            
+        
+    
+
+            var circle_1c2b51e706ea4a21927cc14940df5085 = L.circle(
+                [47.39812866392448,8.592176513030354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_41bd169bf9514193bc0eb35668871b8f = L.popup({maxWidth: '300'});
+
+            
+                var html_5d846dae685a43f8a2840c4396885675 = $('<div id="html_5d846dae685a43f8a2840c4396885675" style="width: 100.0%; height: 100.0%;">Altwiesen-/Dübendorfstr/Hohmoos (Mattenhof)</div>')[0];
+                popup_41bd169bf9514193bc0eb35668871b8f.setContent(html_5d846dae685a43f8a2840c4396885675);
+            
+
+            circle_1c2b51e706ea4a21927cc14940df5085.bindPopup(popup_41bd169bf9514193bc0eb35668871b8f);
+
+            
+        
+    
+
+            var circle_1243c050a6d340c88665bf865b05e27c = L.circle(
+                [47.37852611162638,8.574966121552066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_c3b9ea0d79384c32b9db37dca090945c = L.popup({maxWidth: '300'});
+
+            
+                var html_d77cd6ad318f4d1193218b673d67b9a5 = $('<div id="html_d77cd6ad318f4d1193218b673d67b9a5" style="width: 100.0%; height: 100.0%;">Dreiwiesen-/Tobelhofstr</div>')[0];
+                popup_c3b9ea0d79384c32b9db37dca090945c.setContent(html_d77cd6ad318f4d1193218b673d67b9a5);
+            
+
+            circle_1243c050a6d340c88665bf865b05e27c.bindPopup(popup_c3b9ea0d79384c32b9db37dca090945c);
+
+            
+        
+    
+
+            var circle_efc1f3bfcd4447ac89900a06a54a93ed = L.circle(
+                [47.36083711637544,8.598650982179922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_789e0cf4caff429aa2f5195f4c264447 = L.popup({maxWidth: '300'});
+
+            
+                var html_04cb61acd45b41d085ba32faf0ad655a = $('<div id="html_04cb61acd45b41d085ba32faf0ad655a" style="width: 100.0%; height: 100.0%;">Katzenschwanz-/Witikonerstr</div>')[0];
+                popup_789e0cf4caff429aa2f5195f4c264447.setContent(html_04cb61acd45b41d085ba32faf0ad655a);
+            
+
+            circle_efc1f3bfcd4447ac89900a06a54a93ed.bindPopup(popup_789e0cf4caff429aa2f5195f4c264447);
+
+            
+        
+    
+
+            var circle_22f386b3be04456ebd409879542e28c9 = L.circle(
+                [47.3539125847475,8.575559426804348],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_08c89467ea8348c89c3ef66f75d89cff = L.popup({maxWidth: '300'});
+
+            
+                var html_9f99a3570f014d9aa43b1a4bcb5f217c = $('<div id="html_9f99a3570f014d9aa43b1a4bcb5f217c" style="width: 100.0%; height: 100.0%;">Forch-/Witellikerstr</div>')[0];
+                popup_08c89467ea8348c89c3ef66f75d89cff.setContent(html_9f99a3570f014d9aa43b1a4bcb5f217c);
+            
+
+            circle_22f386b3be04456ebd409879542e28c9.bindPopup(popup_08c89467ea8348c89c3ef66f75d89cff);
+
+            
+        
+    
+
+            var circle_14bcafb1994d4c1ab0d4cea9406d6676 = L.circle(
+                [47.34899725993962,8.561824896918994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_fadf29a489c04a3486ed63517ba155b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3faf04a366a84f66b804f740411d6204 = $('<div id="html_3faf04a366a84f66b804f740411d6204" style="width: 100.0%; height: 100.0%;">Bellerivestr (Ausfahrt Seepolizei)</div>')[0];
+                popup_fadf29a489c04a3486ed63517ba155b2.setContent(html_3faf04a366a84f66b804f740411d6204);
+            
+
+            circle_14bcafb1994d4c1ab0d4cea9406d6676.bindPopup(popup_fadf29a489c04a3486ed63517ba155b2);
+
+            
+        
+    
+
+            var circle_dfec566ee5834269b8ccbfb23759fca9 = L.circle(
+                [47.34718931215963,8.519877593903185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 685.2072789963707,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_6551a98152084dcc9ced0777da705a2e = L.popup({maxWidth: '300'});
+
+            
+                var html_1306d749cfb54d828bf01ed3e581ebb4 = $('<div id="html_1306d749cfb54d828bf01ed3e581ebb4" style="width: 100.0%; height: 100.0%;">A3 Allmendstr</div>')[0];
+                popup_6551a98152084dcc9ced0777da705a2e.setContent(html_1306d749cfb54d828bf01ed3e581ebb4);
+            
+
+            circle_dfec566ee5834269b8ccbfb23759fca9.bindPopup(popup_6551a98152084dcc9ced0777da705a2e);
+
+            
+        
+    
+
+            var circle_e5c4dd8970f2454f80f1a9ef784083d9 = L.circle(
+                [47.41018255900773,8.569938996556107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.864335712434432,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_11b3cc74708d4c45951161dcea4f3579 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbf590b980dc4c17801def5adcca3640 = $('<div id="html_fbf590b980dc4c17801def5adcca3640" style="width: 100.0%; height: 100.0%;">Wallisellenstr/Einfahrt A1 (Stadteinwärts)</div>')[0];
+                popup_11b3cc74708d4c45951161dcea4f3579.setContent(html_fbf590b980dc4c17801def5adcca3640);
+            
+
+            circle_e5c4dd8970f2454f80f1a9ef784083d9.bindPopup(popup_11b3cc74708d4c45951161dcea4f3579);
+
+            
+        
+    
+
+            var circle_9e7643f36a2d4fa6b7cd1df466c96c1a = L.circle(
+                [47.3992834249068,8.495214870982634],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_9e8c5da6075443d6ba1fe280bfd82c50 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc5b75901f524bc2a43e2e50369c6b7b = $('<div id="html_fc5b75901f524bc2a43e2e50369c6b7b" style="width: 100.0%; height: 100.0%;">Am Wasser/Europabrücke/Winzerstr</div>')[0];
+                popup_9e8c5da6075443d6ba1fe280bfd82c50.setContent(html_fc5b75901f524bc2a43e2e50369c6b7b);
+            
+
+            circle_9e7643f36a2d4fa6b7cd1df466c96c1a.bindPopup(popup_9e8c5da6075443d6ba1fe280bfd82c50);
+
+            
+        
+    
+
+            var circle_d9b8dffb3915486e86bf7b96838288fa = L.circle(
+                [47.39219831344236,8.52359923213398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 278.2806271827689,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_d308cc806cca49f6badfd286838d6272 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e53c25971ed4a1e8d106829dcebae6f = $('<div id="html_7e53c25971ed4a1e8d106829dcebae6f" style="width: 100.0%; height: 100.0%;">Wipkingerplatz (Höngger-/Röschibachstr)</div>')[0];
+                popup_d308cc806cca49f6badfd286838d6272.setContent(html_7e53c25971ed4a1e8d106829dcebae6f);
+            
+
+            circle_d9b8dffb3915486e86bf7b96838288fa.bindPopup(popup_d308cc806cca49f6badfd286838d6272);
+
+            
+        
+    
+
+            var circle_929855af0ef742f78060c3de8be44917 = L.circle(
+                [47.39257525016696,8.524226701925894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_4d23303bfb30436599230db6e0f53017 = L.popup({maxWidth: '300'});
+
+            
+                var html_b18a8d4fc99b4aedb1adab5691377854 = $('<div id="html_b18a8d4fc99b4aedb1adab5691377854" style="width: 100.0%; height: 100.0%;">Escher Wyss Platz (Em Sihlquai/Wipkingerbrücke)</div>')[0];
+                popup_4d23303bfb30436599230db6e0f53017.setContent(html_b18a8d4fc99b4aedb1adab5691377854);
+            
+
+            circle_929855af0ef742f78060c3de8be44917.bindPopup(popup_4d23303bfb30436599230db6e0f53017);
+
+            
+        
+    
+
+            var circle_fdaf0c50be794251866d9297710f61a8 = L.circle(
+                [47.38686948630757,8.534802543670775],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_3b352470d61c460d8fa839d30e5b6cf9 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7644c0d1f1143bdae7d9ac17622970a = $('<div id="html_b7644c0d1f1143bdae7d9ac17622970a" style="width: 100.0%; height: 100.0%;">Kornhaus-/Rousseaustr</div>')[0];
+                popup_3b352470d61c460d8fa839d30e5b6cf9.setContent(html_b7644c0d1f1143bdae7d9ac17622970a);
+            
+
+            circle_fdaf0c50be794251866d9297710f61a8.bindPopup(popup_3b352470d61c460d8fa839d30e5b6cf9);
+
+            
+        
+    
+
+            var circle_7b9dae135e5a45da9705df93cc8cf381 = L.circle(
+                [47.37862239482029,8.542352194469021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_1a65d314091c4e9aaf802966ecba2f39 = L.popup({maxWidth: '300'});
+
+            
+                var html_392ee43d26c14b2d935728b1825c71fe = $('<div id="html_392ee43d26c14b2d935728b1825c71fe" style="width: 100.0%; height: 100.0%;">Walcheplatz (Neumühlequai/Walchebrücke/Walchetor)</div>')[0];
+                popup_1a65d314091c4e9aaf802966ecba2f39.setContent(html_392ee43d26c14b2d935728b1825c71fe);
+            
+
+            circle_7b9dae135e5a45da9705df93cc8cf381.bindPopup(popup_1a65d314091c4e9aaf802966ecba2f39);
+
+            
+        
+    
+
+            var circle_2f8b93947cf44ed1a34cf810e669ecc0 = L.circle(
+                [47.37863553823723,8.541644767122648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_42ebf9aa90e14a26a271034f46c21de8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1bd4eb4fa2f84089a0e461db1a95d1f4 = $('<div id="html_1bd4eb4fa2f84089a0e461db1a95d1f4" style="width: 100.0%; height: 100.0%;">Bahnhofquai/Bahnhofquai Unterführung Nord</div>')[0];
+                popup_42ebf9aa90e14a26a271034f46c21de8.setContent(html_1bd4eb4fa2f84089a0e461db1a95d1f4);
+            
+
+            circle_2f8b93947cf44ed1a34cf810e669ecc0.bindPopup(popup_42ebf9aa90e14a26a271034f46c21de8);
+
+            
+        
+    
+
+            var circle_4940ecf7953047f697db8b39466bb757 = L.circle(
+                [47.37439504566227,8.542737391846446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_2383933392c749208c15966da1800479 = L.popup({maxWidth: '300'});
+
+            
+                var html_155d9f1322d845bd948d29df93371082 = $('<div id="html_155d9f1322d845bd948d29df93371082" style="width: 100.0%; height: 100.0%;">Limmatquai/Mühlegasse</div>')[0];
+                popup_2383933392c749208c15966da1800479.setContent(html_155d9f1322d845bd948d29df93371082);
+            
+
+            circle_4940ecf7953047f697db8b39466bb757.bindPopup(popup_2383933392c749208c15966da1800479);
+
+            
+        
+    
+
+            var circle_2a87bc92e09443ac8d2ed596d877c53d = L.circle(
+                [47.37437775431889,8.541929944584098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_1539d38cd32b44cb844383a4b2787f03 = L.popup({maxWidth: '300'});
+
+            
+                var html_419a11604e7b4b989ef72387b1196ecc = $('<div id="html_419a11604e7b4b989ef72387b1196ecc" style="width: 100.0%; height: 100.0%;">Bahnhofquai/Rud Brun-Brücke/Uraniastr (Heimatwerk)</div>')[0];
+                popup_1539d38cd32b44cb844383a4b2787f03.setContent(html_419a11604e7b4b989ef72387b1196ecc);
+            
+
+            circle_2a87bc92e09443ac8d2ed596d877c53d.bindPopup(popup_1539d38cd32b44cb844383a4b2787f03);
+
+            
+        
+    
+
+            var circle_8600d88a343a4754b53556db266582a5 = L.circle(
+                [47.36687017183799,8.542753661453927],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_ffc8dd9714f5456b8f32f931c88b1fbc = L.popup({maxWidth: '300'});
+
+            
+                var html_c69604c71eda4cc8aae7b17fd7d5b0bb = $('<div id="html_c69604c71eda4cc8aae7b17fd7d5b0bb" style="width: 100.0%; height: 100.0%;">Bürkliplatz/Stadthausquai</div>')[0];
+                popup_ffc8dd9714f5456b8f32f931c88b1fbc.setContent(html_c69604c71eda4cc8aae7b17fd7d5b0bb);
+            
+
+            circle_8600d88a343a4754b53556db266582a5.bindPopup(popup_ffc8dd9714f5456b8f32f931c88b1fbc);
+
+            
+        
+    
+
+            var circle_ae8b811bd7e7452a96ed95ee1cef4d76 = L.circle(
+                [47.41425687046129,8.550536931540316],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_de8162dd96db4859abc0b5ea4c87176c = L.popup({maxWidth: '300'});
+
+            
+                var html_3311166be7a34eb89158c0a18fdc1d3e = $('<div id="html_3311166be7a34eb89158c0a18fdc1d3e" style="width: 100.0%; height: 100.0%;">Andreas-/Thurgauerstr</div>')[0];
+                popup_de8162dd96db4859abc0b5ea4c87176c.setContent(html_3311166be7a34eb89158c0a18fdc1d3e);
+            
+
+            circle_ae8b811bd7e7452a96ed95ee1cef4d76.bindPopup(popup_de8162dd96db4859abc0b5ea4c87176c);
+
+            
+        
+    
+
+            var circle_ee5a6480950745a798afc221c757e85c = L.circle(
+                [47.38564492330153,8.537517002329833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_cf520455e42c43b59a0043585fcd087c = L.popup({maxWidth: '300'});
+
+            
+                var html_bd14b4393e104c3cabaa2ea13acb47d7 = $('<div id="html_bd14b4393e104c3cabaa2ea13acb47d7" style="width: 100.0%; height: 100.0%;">Wasserwerkstr (Mibutu Südportal)</div>')[0];
+                popup_cf520455e42c43b59a0043585fcd087c.setContent(html_bd14b4393e104c3cabaa2ea13acb47d7);
+            
+
+            circle_ee5a6480950745a798afc221c757e85c.bindPopup(popup_cf520455e42c43b59a0043585fcd087c);
+
+            
+        
+    
+
+            var circle_7880214dc2ce40e8b22c469308c68021 = L.circle(
+                [47.40568042500895,8.504469733137643],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_9811c43857484e7fa8d4985b41a8eaec = L.popup({maxWidth: '300'});
+
+            
+                var html_264a2dceb7654a0a8ad5dbb5e546ab37 = $('<div id="html_264a2dceb7654a0a8ad5dbb5e546ab37" style="width: 100.0%; height: 100.0%;">Emil Klöti-/Gsteigstr</div>')[0];
+                popup_9811c43857484e7fa8d4985b41a8eaec.setContent(html_264a2dceb7654a0a8ad5dbb5e546ab37);
+            
+
+            circle_7880214dc2ce40e8b22c469308c68021.bindPopup(popup_9811c43857484e7fa8d4985b41a8eaec);
+
+            
+        
+    
+
+            var circle_2d6aae078ce048ae85c794c2d202fd3b = L.circle(
+                [47.37259296338495,8.505073749403644],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_2a6192f8c2fb49f7b379c73ff72aad30 = L.popup({maxWidth: '300'});
+
+            
+                var html_79474bc52e554618bc2d38711d24bdc7 = $('<div id="html_79474bc52e554618bc2d38711d24bdc7" style="width: 100.0%; height: 100.0%;">Gutstr (111/121 Fg-Uebergang Schulweg)</div>')[0];
+                popup_2a6192f8c2fb49f7b379c73ff72aad30.setContent(html_79474bc52e554618bc2d38711d24bdc7);
+            
+
+            circle_2d6aae078ce048ae85c794c2d202fd3b.bindPopup(popup_2a6192f8c2fb49f7b379c73ff72aad30);
+
+            
+        
+    
+
+            var circle_0df799eb2ce44d33a72027afa1905efc = L.circle(
+                [47.36797428191993,8.501528061528308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_65daf90bb19c4224991b3d1e41b98e2b = L.popup({maxWidth: '300'});
+
+            
+                var html_b893283fcef14b36bf78759cffeb8ca7 = $('<div id="html_b893283fcef14b36bf78759cffeb8ca7" style="width: 100.0%; height: 100.0%;">Schweighofstr 425</div>')[0];
+                popup_65daf90bb19c4224991b3d1e41b98e2b.setContent(html_b893283fcef14b36bf78759cffeb8ca7);
+            
+
+            circle_0df799eb2ce44d33a72027afa1905efc.bindPopup(popup_65daf90bb19c4224991b3d1e41b98e2b);
+
+            
+        
+    
+
+            var circle_c9fe4d02b2ee440caab67fbd48535d3a = L.circle(
+                [47.37515910301261,8.560474245027706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_c57b1e9541414d53a0c3337fcb77a1c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0e082461b75408aab865141c8d2814b = $('<div id="html_f0e082461b75408aab865141c8d2814b" style="width: 100.0%; height: 100.0%;">Berg-/Schneckenmannstr</div>')[0];
+                popup_c57b1e9541414d53a0c3337fcb77a1c7.setContent(html_f0e082461b75408aab865141c8d2814b);
+            
+
+            circle_c9fe4d02b2ee440caab67fbd48535d3a.bindPopup(popup_c57b1e9541414d53a0c3337fcb77a1c7);
+
+            
+        
+    
+
+            var circle_d134a2aa7843417c89df329db93ba313 = L.circle(
+                [47.39489304028644,8.525735057432788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_9d08bf35b9394996a5597b309465527f = L.popup({maxWidth: '300'});
+
+            
+                var html_148d63fb769e4690926cc3bade3c6396 = $('<div id="html_148d63fb769e4690926cc3bade3c6396" style="width: 100.0%; height: 100.0%;">Nordstr/Röschibachsteig/Rosengartenbrücke</div>')[0];
+                popup_9d08bf35b9394996a5597b309465527f.setContent(html_148d63fb769e4690926cc3bade3c6396);
+            
+
+            circle_d134a2aa7843417c89df329db93ba313.bindPopup(popup_9d08bf35b9394996a5597b309465527f);
+
+            
+        
+    
+
+            var circle_ba2a9e5d9e2d413a975b3c60bc274c51 = L.circle(
+                [47.38318543249684,8.51511708035729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_1074293771b544e282ab68238ad556e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1767a1bf053948b0ba2afbb55ad04813 = $('<div id="html_1767a1bf053948b0ba2afbb55ad04813" style="width: 100.0%; height: 100.0%;">Hardbrücke/Hohlstr (Abfahrtsrampe)</div>')[0];
+                popup_1074293771b544e282ab68238ad556e8.setContent(html_1767a1bf053948b0ba2afbb55ad04813);
+            
+
+            circle_ba2a9e5d9e2d413a975b3c60bc274c51.bindPopup(popup_1074293771b544e282ab68238ad556e8);
+
+            
+        
+    
+
+            var circle_97a5204fdc6042649bb8a3971cf1e131 = L.circle(
+                [47.37382649394903,8.519518680146433],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_467c35d5d5d243bf9d0acbd2369b4828 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf0f4febbdc54153aca93b2ca7d98a76 = $('<div id="html_bf0f4febbdc54153aca93b2ca7d98a76" style="width: 100.0%; height: 100.0%;">Kalkbreite-/Seebahnstr</div>')[0];
+                popup_467c35d5d5d243bf9d0acbd2369b4828.setContent(html_bf0f4febbdc54153aca93b2ca7d98a76);
+            
+
+            circle_97a5204fdc6042649bb8a3971cf1e131.bindPopup(popup_467c35d5d5d243bf9d0acbd2369b4828);
+
+            
+        
+    
+
+            var circle_de7dcb0b0bb741d9b11bd0e603814c36 = L.circle(
+                [47.37586765062965,8.535484959459794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_88f3309944c14f8cb59c520a00253c1e = L.popup({maxWidth: '300'});
+
+            
+                var html_c53e947171b14edcb72c37de6e938412 = $('<div id="html_c53e947171b14edcb72c37de6e938412" style="width: 100.0%; height: 100.0%;">Gessnerallee/Usteribrücke</div>')[0];
+                popup_88f3309944c14f8cb59c520a00253c1e.setContent(html_c53e947171b14edcb72c37de6e938412);
+            
+
+            circle_de7dcb0b0bb741d9b11bd0e603814c36.bindPopup(popup_88f3309944c14f8cb59c520a00253c1e);
+
+            
+        
+    
+
+            var circle_03ce8dc6235241c291263a66f5bcaa25 = L.circle(
+                [47.37376281697533,8.546537898294932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_69eabb1a41d54e9cb80ed0b08d885c91 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a4603ec81494b788c9d9a153248b84b = $('<div id="html_5a4603ec81494b788c9d9a153248b84b" style="width: 100.0%; height: 100.0%;">Künstlergasse/Neumarkt/Seilergraben</div>')[0];
+                popup_69eabb1a41d54e9cb80ed0b08d885c91.setContent(html_5a4603ec81494b788c9d9a153248b84b);
+            
+
+            circle_03ce8dc6235241c291263a66f5bcaa25.bindPopup(popup_69eabb1a41d54e9cb80ed0b08d885c91);
+
+            
+        
+    
+
+            var circle_45203ceaefdf41388d623c5d8e20c564 = L.circle(
+                [47.37458340324657,8.546007535300971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_33bf90d8a1cd4c5ca49dd8121352264d = L.popup({maxWidth: '300'});
+
+            
+                var html_594e0d829fcb432a81736789fa5cef6b = $('<div id="html_594e0d829fcb432a81736789fa5cef6b" style="width: 100.0%; height: 100.0%;">Mühlegasse/Seilergraben</div>')[0];
+                popup_33bf90d8a1cd4c5ca49dd8121352264d.setContent(html_594e0d829fcb432a81736789fa5cef6b);
+            
+
+            circle_45203ceaefdf41388d623c5d8e20c564.bindPopup(popup_33bf90d8a1cd4c5ca49dd8121352264d);
+
+            
+        
+    
+
+            var circle_4f0ceb2a365e459d8f4d2629479b230f = L.circle(
+                [47.37458264791513,8.538706082943783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_94efc376bc5e4af99f8f930627be1493 = L.popup({maxWidth: '300'});
+
+            
+                var html_43d3d4f0c0654cdf908bb81be3145be0 = $('<div id="html_43d3d4f0c0654cdf908bb81be3145be0" style="width: 100.0%; height: 100.0%;">Bahnhof-/Uraniastr</div>')[0];
+                popup_94efc376bc5e4af99f8f930627be1493.setContent(html_43d3d4f0c0654cdf908bb81be3145be0);
+            
+
+            circle_4f0ceb2a365e459d8f4d2629479b230f.bindPopup(popup_94efc376bc5e4af99f8f930627be1493);
+
+            
+        
+    
+
+            var circle_c27a873f5d4149c3947cbdd2c061acde = L.circle(
+                [47.37063091313489,8.53534688364897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_0f30f70324e84f19a52cf8c8b9806a69 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1188106eb0443f88f6bbe19599dd618 = $('<div id="html_e1188106eb0443f88f6bbe19599dd618" style="width: 100.0%; height: 100.0%;">Pelikan-/Talstr (Schulweg)</div>')[0];
+                popup_0f30f70324e84f19a52cf8c8b9806a69.setContent(html_e1188106eb0443f88f6bbe19599dd618);
+            
+
+            circle_c27a873f5d4149c3947cbdd2c061acde.bindPopup(popup_0f30f70324e84f19a52cf8c8b9806a69);
+
+            
+        
+    
+
+            var circle_421da06e90c34f73b02c4d4e674e8325 = L.circle(
+                [47.3667330382913,8.553433331074576],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_1830bb82770e4ed7a9187af5a212ff68 = L.popup({maxWidth: '300'});
+
+            
+                var html_cdd51edda1104c6689a3c77647478a96 = $('<div id="html_cdd51edda1104c6689a3c77647478a96" style="width: 100.0%; height: 100.0%;">Merkurstr/Zeltweg</div>')[0];
+                popup_1830bb82770e4ed7a9187af5a212ff68.setContent(html_cdd51edda1104c6689a3c77647478a96);
+            
+
+            circle_421da06e90c34f73b02c4d4e674e8325.bindPopup(popup_1830bb82770e4ed7a9187af5a212ff68);
+
+            
+        
+    
+
+            var circle_30b6213cf5784189873e79edd08ce10e = L.circle(
+                [47.36915309123307,8.555966412934342],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_f7994f950f1642358007fe4b9d44a902 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a603d5cb9974103b59f7b745ad16efb = $('<div id="html_5a603d5cb9974103b59f7b745ad16efb" style="width: 100.0%; height: 100.0%;">Freie-/Hottingerstr</div>')[0];
+                popup_f7994f950f1642358007fe4b9d44a902.setContent(html_5a603d5cb9974103b59f7b745ad16efb);
+            
+
+            circle_30b6213cf5784189873e79edd08ce10e.bindPopup(popup_f7994f950f1642358007fe4b9d44a902);
+
+            
+        
+    
+
+            var circle_9dfeb7eb54b840f7b1f76cd0f8228979 = L.circle(
+                [47.36796655903055,8.546355072694055],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_e7c94990f6d7495ebd7027c38df7f61c = L.popup({maxWidth: '300'});
+
+            
+                var html_656031b76c3847ca926e8f145426eb6f = $('<div id="html_656031b76c3847ca926e8f145426eb6f" style="width: 100.0%; height: 100.0%;">Rämi-/Stadelhoferstr</div>')[0];
+                popup_e7c94990f6d7495ebd7027c38df7f61c.setContent(html_656031b76c3847ca926e8f145426eb6f);
+            
+
+            circle_9dfeb7eb54b840f7b1f76cd0f8228979.bindPopup(popup_e7c94990f6d7495ebd7027c38df7f61c);
+
+            
+        
+    
+
+            var circle_ac07291677644aa2b8a0e171dc4f53b4 = L.circle(
+                [47.37680808858806,8.543094337992263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_ad4e05e8bc0047ecb6d23c308fbe588d = L.popup({maxWidth: '300'});
+
+            
+                var html_e1fa739c7d3d4cfca726330780b22624 = $('<div id="html_e1fa739c7d3d4cfca726330780b22624" style="width: 100.0%; height: 100.0%;">Bahnhofbrücke/Central</div>')[0];
+                popup_ad4e05e8bc0047ecb6d23c308fbe588d.setContent(html_e1fa739c7d3d4cfca726330780b22624);
+            
+
+            circle_ac07291677644aa2b8a0e171dc4f53b4.bindPopup(popup_ad4e05e8bc0047ecb6d23c308fbe588d);
+
+            
+        
+    
+
+            var circle_1178b26cafaa49d3b046cc2f8512fdfa = L.circle(
+                [47.39312910903473,8.49294202326319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_6211721dc3834572adca0c300c001ee4 = L.popup({maxWidth: '300'});
+
+            
+                var html_c4c3cc31dd8d4dbfaac76b1cee66bf6a = $('<div id="html_c4c3cc31dd8d4dbfaac76b1cee66bf6a" style="width: 100.0%; height: 100.0%;">Europabrücke/Max Högger-/Würzgrabenstr</div>')[0];
+                popup_6211721dc3834572adca0c300c001ee4.setContent(html_c4c3cc31dd8d4dbfaac76b1cee66bf6a);
+            
+
+            circle_1178b26cafaa49d3b046cc2f8512fdfa.bindPopup(popup_6211721dc3834572adca0c300c001ee4);
+
+            
+        
+    
+
+            var circle_309a6986caff428f817b944371053a76 = L.circle(
+                [47.41468070805043,8.520535013338407],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5d610744903645d4ba5995cf1ea69420 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d1618a878734d27abf4020aa684ca8c = $('<div id="html_8d1618a878734d27abf4020aa684ca8c" style="width: 100.0%; height: 100.0%;">Binzmühle-/Seebacherstr</div>')[0];
+                popup_5d610744903645d4ba5995cf1ea69420.setContent(html_8d1618a878734d27abf4020aa684ca8c);
+            
+
+            circle_309a6986caff428f817b944371053a76.bindPopup(popup_5d610744903645d4ba5995cf1ea69420);
+
+            
+        
+    
+
+            var circle_a5c9f45720884cf0896f6a6b591030b0 = L.circle(
+                [47.39838476925496,8.537913042755346],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_8e6a63899f424416a0d54494fcbf4b3a = L.popup({maxWidth: '300'});
+
+            
+                var html_9fc5b2cca2854a07b4eef9867f76420e = $('<div id="html_9fc5b2cca2854a07b4eef9867f76420e" style="width: 100.0%; height: 100.0%;">HIBUTU (Betriebsstatus und Zählstelle)</div>')[0];
+                popup_8e6a63899f424416a0d54494fcbf4b3a.setContent(html_9fc5b2cca2854a07b4eef9867f76420e);
+            
+
+            circle_a5c9f45720884cf0896f6a6b591030b0.bindPopup(popup_8e6a63899f424416a0d54494fcbf4b3a);
+
+            
+        
+    
+
+            var circle_63e5b1371d8147a2aab2876f3f032fde = L.circle(
+                [47.42962550544531,8.549272900662753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_9759ccb3f2514c9ea5d00b2a62640a67 = L.popup({maxWidth: '300'});
+
+            
+                var html_081fbfd5b519468491158bf49ed2a783 = $('<div id="html_081fbfd5b519468491158bf49ed2a783" style="width: 100.0%; height: 100.0%;">Eichraintunnel (Betriebsstatus und Zählstelle)</div>')[0];
+                popup_9759ccb3f2514c9ea5d00b2a62640a67.setContent(html_081fbfd5b519468491158bf49ed2a783);
+            
+
+            circle_63e5b1371d8147a2aab2876f3f032fde.bindPopup(popup_9759ccb3f2514c9ea5d00b2a62640a67);
+
+            
+        
+    
+
+            var circle_0e38fb724a514c0fa39f26253032e346 = L.circle(
+                [47.37274909967514,8.550297654309382],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_94f3fa65f79947d28ef2772a746b54be = L.popup({maxWidth: '300'});
+
+            
+                var html_03774f98a2eb49b6a027a02ee938baf0 = $('<div id="html_03774f98a2eb49b6a027a02ee938baf0" style="width: 100.0%; height: 100.0%;">Kantonsschul-/Rämi-/Zürichbergstr</div>')[0];
+                popup_94f3fa65f79947d28ef2772a746b54be.setContent(html_03774f98a2eb49b6a027a02ee938baf0);
+            
+
+            circle_0e38fb724a514c0fa39f26253032e346.bindPopup(popup_94f3fa65f79947d28ef2772a746b54be);
+
+            
+        
+    
+
+            var circle_2b870f01c6a244cba6f5e16d9e2846f5 = L.circle(
+                [47.35940553384653,8.557611106793024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_8c6722a2716144fe83517387ac58279a = L.popup({maxWidth: '300'});
+
+            
+                var html_294c37e7287d4ed99a8fa6113ce1d274 = $('<div id="html_294c37e7287d4ed99a8fa6113ce1d274" style="width: 100.0%; height: 100.0%;">Hammerstr/Höschgasse/Zollikerstr</div>')[0];
+                popup_8c6722a2716144fe83517387ac58279a.setContent(html_294c37e7287d4ed99a8fa6113ce1d274);
+            
+
+            circle_2b870f01c6a244cba6f5e16d9e2846f5.bindPopup(popup_8c6722a2716144fe83517387ac58279a);
+
+            
+        
+    
+
+            var circle_3bd911d90f26403f8975029aef0565d7 = L.circle(
+                [47.36705135236252,8.535046971519535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_e112cc493ab540938a811d1700abac4a = L.popup({maxWidth: '300'});
+
+            
+                var html_c2db293030794980aabe8027fb4aa702 = $('<div id="html_c2db293030794980aabe8027fb4aa702" style="width: 100.0%; height: 100.0%;">Dreikönig-/Stockerstr</div>')[0];
+                popup_e112cc493ab540938a811d1700abac4a.setContent(html_c2db293030794980aabe8027fb4aa702);
+            
+
+            circle_3bd911d90f26403f8975029aef0565d7.bindPopup(popup_e112cc493ab540938a811d1700abac4a);
+
+            
+        
+    
+
+            var circle_c0654396902148219c5bbca148b3fc18 = L.circle(
+                [47.3805240824023,8.542782388658894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_125191dc937a47d8a7ff67faf653514c = L.popup({maxWidth: '300'});
+
+            
+                var html_d8e032e73a974a1a88d55ceb837dded9 = $('<div id="html_d8e032e73a974a1a88d55ceb837dded9" style="width: 100.0%; height: 100.0%;">Stampfenbach-/Wasserwerkstr</div>')[0];
+                popup_125191dc937a47d8a7ff67faf653514c.setContent(html_d8e032e73a974a1a88d55ceb837dded9);
+            
+
+            circle_c0654396902148219c5bbca148b3fc18.bindPopup(popup_125191dc937a47d8a7ff67faf653514c);
+
+            
+        
+    
+
+            var circle_8db6041e0cfe4ff794100b77f8976469 = L.circle(
+                [47.3814559040641,8.54093448149524],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_2c319215e3a0419891fd04e0929ad4df = L.popup({maxWidth: '300'});
+
+            
+                var html_515f1064bb634f5c86824c3d1edc5ddd = $('<div id="html_515f1064bb634f5c86824c3d1edc5ddd" style="width: 100.0%; height: 100.0%;">Neumühlequai (Ausfahrt Sanität)</div>')[0];
+                popup_2c319215e3a0419891fd04e0929ad4df.setContent(html_515f1064bb634f5c86824c3d1edc5ddd);
+            
+
+            circle_8db6041e0cfe4ff794100b77f8976469.bindPopup(popup_2c319215e3a0419891fd04e0929ad4df);
+
+            
+        
+    
+
+            var circle_28d1a02d94434f77863935bdcb8cd861 = L.circle(
+                [47.38957755009627,8.511737732884527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5ab581b952c542f9aabb0007f4ad07fa = L.popup({maxWidth: '300'});
+
+            
+                var html_7f59e87c57244ed7bf0d56dbd17b5e61 = $('<div id="html_7f59e87c57244ed7bf0d56dbd17b5e61" style="width: 100.0%; height: 100.0%;">Duttweilerstr/Duttweilerbrücke/Pfingstweidstr</div>')[0];
+                popup_5ab581b952c542f9aabb0007f4ad07fa.setContent(html_7f59e87c57244ed7bf0d56dbd17b5e61);
+            
+
+            circle_28d1a02d94434f77863935bdcb8cd861.bindPopup(popup_5ab581b952c542f9aabb0007f4ad07fa);
+
+            
+        
+    
+
+            var circle_ff1ba569c85f4b89a205d3c17b839b76 = L.circle(
+                [47.35434290898581,8.525969412334401],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_69ba90320b714e699eafcab7a7213ed1 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddef6481e72e4897a67d11ee761331f7 = $('<div id="html_ddef6481e72e4897a67d11ee761331f7" style="width: 100.0%; height: 100.0%;">Brunau-/Rieterstr</div>')[0];
+                popup_69ba90320b714e699eafcab7a7213ed1.setContent(html_ddef6481e72e4897a67d11ee761331f7);
+            
+
+            circle_ff1ba569c85f4b89a205d3c17b839b76.bindPopup(popup_69ba90320b714e699eafcab7a7213ed1);
+
+            
+        
+    
+
+            var circle_d3dd18b1127d439e93fe510e052f569b = L.circle(
+                [47.37747029418061,8.499434950111366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_ba072b08ae6f40d6b88bf00f6afe1539 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5da9602939e433faf2fe54c89f16576 = $('<div id="html_c5da9602939e433faf2fe54c89f16576" style="width: 100.0%; height: 100.0%;">Albisrieder-/Gutstr (Hubertus)</div>')[0];
+                popup_ba072b08ae6f40d6b88bf00f6afe1539.setContent(html_c5da9602939e433faf2fe54c89f16576);
+            
+
+            circle_d3dd18b1127d439e93fe510e052f569b.bindPopup(popup_ba072b08ae6f40d6b88bf00f6afe1539);
+
+            
+        
+    
+
+            var circle_7cc0d47e0cc64c4b873eb6ba3fbe3d71 = L.circle(
+                [47.39170905109493,8.518897109793635],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_18ca0e81c0e849f48c877ee6df2b953f = L.popup({maxWidth: '300'});
+
+            
+                var html_907891e0bef440adb3f8373fb7ff5d12 = $('<div id="html_907891e0bef440adb3f8373fb7ff5d12" style="width: 100.0%; height: 100.0%;">Hardturmstr 11/66 (Fg-Uebergang Depot Hard)</div>')[0];
+                popup_18ca0e81c0e849f48c877ee6df2b953f.setContent(html_907891e0bef440adb3f8373fb7ff5d12);
+            
+
+            circle_7cc0d47e0cc64c4b873eb6ba3fbe3d71.bindPopup(popup_18ca0e81c0e849f48c877ee6df2b953f);
+
+            
+        
+    
+
+            var circle_ae583e866f904c23a19a8cf80917a33d = L.circle(
+                [47.37770230477256,8.521976974651157],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_dbaf529c2b2e450b96aa7cc0b20ab247 = L.popup({maxWidth: '300'});
+
+            
+                var html_2349612662c14881974b713757a18b1c = $('<div id="html_2349612662c14881974b713757a18b1c" style="width: 100.0%; height: 100.0%;">Feld-/Stauffacherstr</div>')[0];
+                popup_dbaf529c2b2e450b96aa7cc0b20ab247.setContent(html_2349612662c14881974b713757a18b1c);
+            
+
+            circle_ae583e866f904c23a19a8cf80917a33d.bindPopup(popup_dbaf529c2b2e450b96aa7cc0b20ab247);
+
+            
+        
+    
+
+            var circle_0ba4202fadea43df8f224252d9326cfe = L.circle(
+                [47.36930547708144,8.527264999763277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_b1ad32e7c45b491f9ef502cf0f9ad582 = L.popup({maxWidth: '300'});
+
+            
+                var html_82c5308263a94649b1152b9a3eb5b31f = $('<div id="html_82c5308263a94649b1152b9a3eb5b31f" style="width: 100.0%; height: 100.0%;">Manessestr/Sihlhölzlibrücke/Stauffacherquai</div>')[0];
+                popup_b1ad32e7c45b491f9ef502cf0f9ad582.setContent(html_82c5308263a94649b1152b9a3eb5b31f);
+            
+
+            circle_0ba4202fadea43df8f224252d9326cfe.bindPopup(popup_b1ad32e7c45b491f9ef502cf0f9ad582);
+
+            
+        
+    
+
+            var circle_6e68512cc4f6461c97da6a3c2cb9c288 = L.circle(
+                [47.37021578127958,8.524962883805927],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_0b2be662fa3648d5b632c66b8dec1fde = L.popup({maxWidth: '300'});
+
+            
+                var html_f293b6dc8ddc455ea8c9e9bd75dd376a = $('<div id="html_f293b6dc8ddc455ea8c9e9bd75dd376a" style="width: 100.0%; height: 100.0%;">Schimmel-/Werdstr (Schulweg)</div>')[0];
+                popup_0b2be662fa3648d5b632c66b8dec1fde.setContent(html_f293b6dc8ddc455ea8c9e9bd75dd376a);
+            
+
+            circle_6e68512cc4f6461c97da6a3c2cb9c288.bindPopup(popup_0b2be662fa3648d5b632c66b8dec1fde);
+
+            
+        
+    
+
+            var circle_67f18e2fccbe454d88f8c4e32af3148a = L.circle(
+                [47.3787855085151,8.519671028153146],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_94527348b1d6499982b6e4515b30243d = L.popup({maxWidth: '300'});
+
+            
+                var html_786d343d6c5b458d88ce23b3b6963278 = $('<div id="html_786d343d6c5b458d88ce23b3b6963278" style="width: 100.0%; height: 100.0%;">Seebahn-/Stauffacherstr (Schulweg)</div>')[0];
+                popup_94527348b1d6499982b6e4515b30243d.setContent(html_786d343d6c5b458d88ce23b3b6963278);
+            
+
+            circle_67f18e2fccbe454d88f8c4e32af3148a.bindPopup(popup_94527348b1d6499982b6e4515b30243d);
+
+            
+        
+    
+
+            var circle_2b098c43f71d407a84606f737497fb30 = L.circle(
+                [47.3805401724911,8.519595110234201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5aa0759337224be2a3a18e5da12b515b = L.popup({maxWidth: '300'});
+
+            
+                var html_9ab38e865a2e42b580b2d41a6c490e78 = $('<div id="html_9ab38e865a2e42b580b2d41a6c490e78" style="width: 100.0%; height: 100.0%;">Hohl-/Seebahnstr (Schulweg)</div>')[0];
+                popup_5aa0759337224be2a3a18e5da12b515b.setContent(html_9ab38e865a2e42b580b2d41a6c490e78);
+            
+
+            circle_2b098c43f71d407a84606f737497fb30.bindPopup(popup_5aa0759337224be2a3a18e5da12b515b);
+
+            
+        
+    
+
+            var circle_23f1353897ae43369abd2cd7647af125 = L.circle(
+                [47.37692221141593,8.513623307969935],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_6b70f91102d74a058a19f8d02bffbc01 = L.popup({maxWidth: '300'});
+
+            
+                var html_6aada66a5a9749549c8b32436cb44741 = $('<div id="html_6aada66a5a9749549c8b32436cb44741" style="width: 100.0%; height: 100.0%;">Badener-/Zypressenstr</div>')[0];
+                popup_6b70f91102d74a058a19f8d02bffbc01.setContent(html_6aada66a5a9749549c8b32436cb44741);
+            
+
+            circle_23f1353897ae43369abd2cd7647af125.bindPopup(popup_6b70f91102d74a058a19f8d02bffbc01);
+
+            
+        
+    
+
+            var circle_1aa5084a6d7d4402a1f2c7b3b2f9f948 = L.circle(
+                [47.36897007960426,8.524901881687528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_cc98f742fd524eaaacf8f1dc9594110c = L.popup({maxWidth: '300'});
+
+            
+                var html_cc4f76987ec94aae9aaa2c1a5de30cd4 = $('<div id="html_cc4f76987ec94aae9aaa2c1a5de30cd4" style="width: 100.0%; height: 100.0%;">Manesse-/Weststr</div>')[0];
+                popup_cc98f742fd524eaaacf8f1dc9594110c.setContent(html_cc4f76987ec94aae9aaa2c1a5de30cd4);
+            
+
+            circle_1aa5084a6d7d4402a1f2c7b3b2f9f948.bindPopup(popup_cc98f742fd524eaaacf8f1dc9594110c);
+
+            
+        
+    
+
+            var circle_43d46ccfccbc486d9f6f0336b21336e1 = L.circle(
+                [47.37115680332746,8.530596239868974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_d8436c2b94ea46b79a424ae524bd70b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab43d0ed77c34e18af930f1ea3d2858a = $('<div id="html_ab43d0ed77c34e18af930f1ea3d2858a" style="width: 100.0%; height: 100.0%;">Stauffacherbrücke/Stauffacherquai/Stauffacherstr</div>')[0];
+                popup_d8436c2b94ea46b79a424ae524bd70b1.setContent(html_ab43d0ed77c34e18af930f1ea3d2858a);
+            
+
+            circle_43d46ccfccbc486d9f6f0336b21336e1.bindPopup(popup_d8436c2b94ea46b79a424ae524bd70b1);
+
+            
+        
+    
+
+            var circle_e11de2b02088442784b2c8e09bd71e8d = L.circle(
+                [47.37111285231323,8.53105864156006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5857ae588c46436188b7f406ae2fd1f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b12fa51ff444ea2b625d889e4b2485e = $('<div id="html_1b12fa51ff444ea2b625d889e4b2485e" style="width: 100.0%; height: 100.0%;">Selnau-/Sihlhölzlistr/Stauffacherbrücke (Bahnhof Selnau)</div>')[0];
+                popup_5857ae588c46436188b7f406ae2fd1f2.setContent(html_1b12fa51ff444ea2b625d889e4b2485e);
+            
+
+            circle_e11de2b02088442784b2c8e09bd71e8d.bindPopup(popup_5857ae588c46436188b7f406ae2fd1f2);
+
+            
+        
+    
+
+            var circle_df7574a507e643889e62c226163b3612 = L.circle(
+                [47.39167313281811,8.505315600321229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_e273cdfe005440ed9cd6b39134ca4d6b = L.popup({maxWidth: '300'});
+
+            
+                var html_cc13749a41a8422db576e5c8a8063e2d = $('<div id="html_cc13749a41a8422db576e5c8a8063e2d" style="width: 100.0%; height: 100.0%;">Pfingstweidstr/Sportweg</div>')[0];
+                popup_e273cdfe005440ed9cd6b39134ca4d6b.setContent(html_cc13749a41a8422db576e5c8a8063e2d);
+            
+
+            circle_df7574a507e643889e62c226163b3612.bindPopup(popup_e273cdfe005440ed9cd6b39134ca4d6b);
+
+            
+        
+    
+
+            var circle_13e5bffa863b450ca83b2a6275194525 = L.circle(
+                [47.39204825997651,8.503654097423942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_aaf753237f544d9db16c0f1cea19509d = L.popup({maxWidth: '300'});
+
+            
+                var html_dac026cd65be4a45bd2a4291380592ef = $('<div id="html_dac026cd65be4a45bd2a4291380592ef" style="width: 100.0%; height: 100.0%;">Aargauer-/Pfingstweidstr</div>')[0];
+                popup_aaf753237f544d9db16c0f1cea19509d.setContent(html_dac026cd65be4a45bd2a4291380592ef);
+            
+
+            circle_13e5bffa863b450ca83b2a6275194525.bindPopup(popup_aaf753237f544d9db16c0f1cea19509d);
+
+            
+        
+    
+
+            var circle_8e0dd102cc9c411f97b906e4f9d5542a = L.circle(
+                [47.36882701019928,8.528659109308855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_3b85465e6a444e65b9559ad910560cb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_652726c8e8e34ad2904eb4d4abcb494f = $('<div id="html_652726c8e8e34ad2904eb4d4abcb494f" style="width: 100.0%; height: 100.0%;">Sihlhölzlibrücke/Sihlhölzli-/Tunnelstr</div>')[0];
+                popup_3b85465e6a444e65b9559ad910560cb0.setContent(html_652726c8e8e34ad2904eb4d4abcb494f);
+            
+
+            circle_8e0dd102cc9c411f97b906e4f9d5542a.bindPopup(popup_3b85465e6a444e65b9559ad910560cb0);
+
+            
+        
+    
+
+            var circle_ccc2520c20a3451792f9290dfdae071f = L.circle(
+                [47.36937407227267,8.505346061025707],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_960702c5d6fe4bae8c508431bc9b9525 = L.popup({maxWidth: '300'});
+
+            
+                var html_307b9e5f874a4a78bb4dd02fdd001d22 = $('<div id="html_307b9e5f874a4a78bb4dd02fdd001d22" style="width: 100.0%; height: 100.0%;">Birmensdorferstr/Wasserschöpfi (Heuried)</div>')[0];
+                popup_960702c5d6fe4bae8c508431bc9b9525.setContent(html_307b9e5f874a4a78bb4dd02fdd001d22);
+            
+
+            circle_ccc2520c20a3451792f9290dfdae071f.bindPopup(popup_960702c5d6fe4bae8c508431bc9b9525);
+
+            
+        
+    
+
+            var circle_6385f5119c03460d865ccd97f6701a9a = L.circle(
+                [47.38805488411199,8.517444608368992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_1a8415274e7a4c71bcaafeb977388a26 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8593fffea3c4f93beb656fb4eef6a2c = $('<div id="html_c8593fffea3c4f93beb656fb4eef6a2c" style="width: 100.0%; height: 100.0%;">Pfingstweidstr (Welti Furrer Ausfahrt)</div>')[0];
+                popup_1a8415274e7a4c71bcaafeb977388a26.setContent(html_c8593fffea3c4f93beb656fb4eef6a2c);
+            
+
+            circle_6385f5119c03460d865ccd97f6701a9a.bindPopup(popup_1a8415274e7a4c71bcaafeb977388a26);
+
+            
+        
+    
+
+            var circle_64343c41e8d346b3be1dd40d82b1d562 = L.circle(
+                [47.38345695717805,8.515613255748413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_ebc74055c19842ba9ca9cd27e14314f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_78b2275c2255483984fe1d4e40cf4ad0 = $('<div id="html_78b2275c2255483984fe1d4e40cf4ad0" style="width: 100.0%; height: 100.0%;">Hardbrücke/Hohlstr (Auffahrtsrampe)</div>')[0];
+                popup_ebc74055c19842ba9ca9cd27e14314f0.setContent(html_78b2275c2255483984fe1d4e40cf4ad0);
+            
+
+            circle_64343c41e8d346b3be1dd40d82b1d562.bindPopup(popup_ebc74055c19842ba9ca9cd27e14314f0);
+
+            
+        
+    
+
+            var circle_6c52dffff4f8432cb21d8b735d115fe5 = L.circle(
+                [47.36656277312666,8.531835657530305],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 404.4858478138568,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_3cbcefee24ef4f96b89343f4d9de580c = L.popup({maxWidth: '300'});
+
+            
+                var html_b31d43f35ea84284af8da304f8f288e1 = $('<div id="html_b31d43f35ea84284af8da304f8f288e1" style="width: 100.0%; height: 100.0%;">Ulmbergtunnel (Betriebsstatus und Zählstelle)</div>')[0];
+                popup_3cbcefee24ef4f96b89343f4d9de580c.setContent(html_b31d43f35ea84284af8da304f8f288e1);
+            
+
+            circle_6c52dffff4f8432cb21d8b735d115fe5.bindPopup(popup_3cbcefee24ef4f96b89343f4d9de580c);
+
+            
+        
+    
+
+            var circle_3a1f3c83a59a4ce0a7a801230e59b9c2 = L.circle(
+                [47.4042238809282,8.533880431162402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_9da9043a218f4c5a843df7c33c9bf45d = L.popup({maxWidth: '300'});
+
+            
+                var html_d158cd59a4af410dbfb806453005840c = $('<div id="html_d158cd59a4af410dbfb806453005840c" style="width: 100.0%; height: 100.0%;">Birch-/Wehntalerstr</div>')[0];
+                popup_9da9043a218f4c5a843df7c33c9bf45d.setContent(html_d158cd59a4af410dbfb806453005840c);
+            
+
+            circle_3a1f3c83a59a4ce0a7a801230e59b9c2.bindPopup(popup_9da9043a218f4c5a843df7c33c9bf45d);
+
+            
+        
+    
+
+            var circle_0a10f9a43c044dcaa95370d62fd7cf9b = L.circle(
+                [47.40966822729529,8.537424278824602],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_d2f4fae969a747e7931b0b13c74a9744 = L.popup({maxWidth: '300'});
+
+            
+                var html_016c50450f1d40fa8495528bbfda5af6 = $('<div id="html_016c50450f1d40fa8495528bbfda5af6" style="width: 100.0%; height: 100.0%;">Birchplatz (Birch-/Regensbergstr Schulweg)</div>')[0];
+                popup_d2f4fae969a747e7931b0b13c74a9744.setContent(html_016c50450f1d40fa8495528bbfda5af6);
+            
+
+            circle_0a10f9a43c044dcaa95370d62fd7cf9b.bindPopup(popup_d2f4fae969a747e7931b0b13c74a9744);
+
+            
+        
+    
+
+            var circle_60c9b6703fe94d83a3e2bb127864acd4 = L.circle(
+                [47.41086896104801,8.56315583371858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_5eb7ade2d210420fb86dc522641f116b = L.popup({maxWidth: '300'});
+
+            
+                var html_b1b9276821d240519375dfceca96485c = $('<div id="html_b1b9276821d240519375dfceca96485c" style="width: 100.0%; height: 100.0%;">Saatlen-/Wallisellenstr (Schulweg)</div>')[0];
+                popup_5eb7ade2d210420fb86dc522641f116b.setContent(html_b1b9276821d240519375dfceca96485c);
+            
+
+            circle_60c9b6703fe94d83a3e2bb127864acd4.bindPopup(popup_5eb7ade2d210420fb86dc522641f116b);
+
+            
+        
+    
+
+            var circle_54e592f4d96443519d173df85cc66917 = L.circle(
+                [47.40655142737105,8.58421153000025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_76a4670321804d8d8a333db853eb8daa = L.popup({maxWidth: '300'});
+
+            
+                var html_c2b0d20604a74314903eb7d3f5601c8b = $('<div id="html_c2b0d20604a74314903eb7d3f5601c8b" style="width: 100.0%; height: 100.0%;">Luchswiesen-/Winterthurerstr</div>')[0];
+                popup_76a4670321804d8d8a333db853eb8daa.setContent(html_c2b0d20604a74314903eb7d3f5601c8b);
+            
+
+            circle_54e592f4d96443519d173df85cc66917.bindPopup(popup_76a4670321804d8d8a333db853eb8daa);
+
+            
+        
+    
+
+            var circle_8981dbc149084610a1729811e5989cf9 = L.circle(
+                [47.36604309216386,8.533519686016595],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 66.71528449825813,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_72203dac94944e77980ced75f05643cc = L.popup({maxWidth: '300'});
+
+            
+                var html_ff334b4efea14bb29c20b5aa8d171cb7 = $('<div id="html_ff334b4efea14bb29c20b5aa8d171cb7" style="width: 100.0%; height: 100.0%;">Dreikönig-/Genferstr</div>')[0];
+                popup_72203dac94944e77980ced75f05643cc.setContent(html_ff334b4efea14bb29c20b5aa8d171cb7);
+            
+
+            circle_8981dbc149084610a1729811e5989cf9.bindPopup(popup_72203dac94944e77980ced75f05643cc);
+
+            
+        
+    
+
+            var circle_64780d18b0e649e980d87cd871c7b42e = L.circle(
+                [47.3972384485557,8.50303281319898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 96.7992001157059,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_2e909fe47e6f4a8f9f750e6a5f460324 = L.popup({maxWidth: '300'});
+
+            
+                var html_1953de60652d4b3ba4102f7385a7757c = $('<div id="html_1953de60652d4b3ba4102f7385a7757c" style="width: 100.0%; height: 100.0%;">Am Wasser/Hardeggstr (Wechselsignalisation T30)</div>')[0];
+                popup_2e909fe47e6f4a8f9f750e6a5f460324.setContent(html_1953de60652d4b3ba4102f7385a7757c);
+            
+
+            circle_64780d18b0e649e980d87cd871c7b42e.bindPopup(popup_2e909fe47e6f4a8f9f750e6a5f460324);
+
+            
+        
+    
+
+            var circle_02340924a982430facdcbe28ea27b385 = L.circle(
+                [47.3972384485557,8.50303281319898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 39.52313563770104,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_90071e8693e74fdc8fdabc6a3699bb09 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e7fb94ac1734670a8b96c8cc0607c4b = $('<div id="html_5e7fb94ac1734670a8b96c8cc0607c4b" style="width: 100.0%; height: 100.0%;">Am Wasser 79</div>')[0];
+                popup_90071e8693e74fdc8fdabc6a3699bb09.setContent(html_5e7fb94ac1734670a8b96c8cc0607c4b);
+            
+
+            circle_02340924a982430facdcbe28ea27b385.bindPopup(popup_90071e8693e74fdc8fdabc6a3699bb09);
+
+            
+        
+    
+
+            var circle_0ad6bdfd60954dc6b996ed0d68718d49 = L.circle(
+                [47.39379154655606,8.508303780652897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_452020acde4a4411b31666e4bcc8cfe4 = L.popup({maxWidth: '300'});
+
+            
+                var html_db502d5bb2c0474cbc71fbdc71e39aad = $('<div id="html_db502d5bb2c0474cbc71fbdc71e39aad" style="width: 100.0%; height: 100.0%;">Hardturmstr (Bernoullihäuser(Fg-Uebergang))</div>')[0];
+                popup_452020acde4a4411b31666e4bcc8cfe4.setContent(html_db502d5bb2c0474cbc71fbdc71e39aad);
+            
+
+            circle_0ad6bdfd60954dc6b996ed0d68718d49.bindPopup(popup_452020acde4a4411b31666e4bcc8cfe4);
+
+            
+        
+    
+
+            var circle_34e081bfc58444a597f702d9974c403f = L.circle(
+                [47.40673279229064,8.551021170849818],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_d813a498cc10427bb2d1a442880d0f9b = L.popup({maxWidth: '300'});
+
+            
+                var html_923c77bf63af44f095e41d375834a6de = $('<div id="html_923c77bf63af44f095e41d375834a6de" style="width: 100.0%; height: 100.0%;">Dörfli-/Schwamendingenstr (Schulweg)</div>')[0];
+                popup_d813a498cc10427bb2d1a442880d0f9b.setContent(html_923c77bf63af44f095e41d375834a6de);
+            
+
+            circle_34e081bfc58444a597f702d9974c403f.bindPopup(popup_d813a498cc10427bb2d1a442880d0f9b);
+
+            
+        
+    
+
+            var circle_14bdd4208bc54d76b49debaef7f108c0 = L.circle(
+                [47.4012255456533,8.534498701871692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 164.2722995894944,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5cf9e8c75a3448acb7d1c33f1271f6a7);
+            
+    
+            var popup_761416250e204ed99ca0d98f819923ca = L.popup({maxWidth: '300'});
+
+            
+                var html_ae197226a77e4db293ee84b481931566 = $('<div id="html_ae197226a77e4db293ee84b481931566" style="width: 100.0%; height: 100.0%;">Brunnenhofweg/Hofwiesenstr</div>')[0];
+                popup_761416250e204ed99ca0d98f819923ca.setContent(html_ae197226a77e4db293ee84b481931566);
+            
+
+            circle_14bdd4208bc54d76b49debaef7f108c0.bindPopup(popup_761416250e204ed99ca0d98f819923ca);
+
+            
+        
+</script>
